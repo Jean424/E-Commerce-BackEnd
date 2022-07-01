@@ -50,7 +50,7 @@ router.post('/', (req, res) => {
       tagIds: [1, 2, 3, 4]
     }
   */
-  console.log(req.body);
+  // console.log(req.body);
 
   Product.create(req.body)
     .then((product) => {
